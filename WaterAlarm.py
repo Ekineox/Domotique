@@ -3,11 +3,11 @@ import RPi.GPIO as GPIO
 import time
 
 GPIO.setmode(GPIO.BCM)
-GPIO.setup(21, GPIO.IN)
+pin = 21
 
-state = GPIO.input(21)
+GPIO.setup(pin, GPIO.IN)
+
+state = GPIO.input(pin)
 
 print(state)
-pin = 21
-state2 = GPIO.gpio_function(pin)
-print(state2)
+
