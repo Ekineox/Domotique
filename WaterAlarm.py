@@ -12,7 +12,7 @@ pin = 21
 
 GPIO.setup(pin, GPIO.IN)
 
-while waterAlarm = 0: # Tant que i est strictement inférieure à 10
+while waterAlarm == 0: # Tant que i est strictement inférieure à 10
 
   state = GPIO.input(pin)
   print(state)
