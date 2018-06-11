@@ -8,3 +8,6 @@ GPIO.setup(23, GPIO.IN)
 state = GPIO.input(23)
 
 print(state)
+
+state2 = GPIO.gpio_function(pin)
+print(state2)
