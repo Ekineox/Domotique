@@ -1,4 +1,6 @@
-#!/usr/bin/env python
+#!/usr/bin/python
+# -*- coding: <lolilol> -*-
+
 import RPi.GPIO as GPIO
 import time
 
