@@ -4,12 +4,14 @@
 import RPi.GPIO as GPIO
 import time
 
-
+####    CONFIG    ####
 GPIO.setmode(GPIO.BCM)
-
 pin = 21
-waterAlarm = 0
+####    CONFIG    ####
 
+
+
+waterAlarm = 0
 GPIO.setup(pin, GPIO.IN)
 
 while waterAlarm == 0: # Tant que i est strictement inférieure à 10
