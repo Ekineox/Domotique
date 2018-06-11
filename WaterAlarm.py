@@ -5,6 +5,6 @@ import time
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(23, GPIO.IN)
 
-state = GPIO.input(12)
+state = GPIO.input(23)
 
 print(state)
