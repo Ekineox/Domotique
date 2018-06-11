@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 import RPi.GPIO as GPIO
 import time
-import Config
+
 
 GPIO.setmode(GPIO.BCM)
 
-pin =21
+pin = 21
 
 
 GPIO.setup(pin, GPIO.IN)
